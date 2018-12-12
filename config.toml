@@ -1,90 +1,45 @@
-baseurl = "https://username.github.io"
-DefaultContentLanguage = "en"
-#DefaultContentLanguage = "ja"
-#title = "Seeds Art Studio"
-theme = "beautifulhugo"
-metaDataFormat = "yaml"
-pygmentsStyle = "trac"
-pygmentsUseClasses = true
-pygmentsCodeFences = true
-pygmentsCodefencesGuessSyntax = true
-#pygmentsUseClassic = true
-#pygmentOptions = "linenos=inline"
-#disqusShortname = "XXX"
-#googleAnalytics = "XXX"
+baseurl = "/"
+title = "Seeds Art Studio"
+theme = "dimension"
+languageCode = "en-us"
+defaultContentLanguage = "en"
+enableRobotsTXT = true
+disableKinds=["RSS"]
 
-[Params]
+[params]
+  description = '<!--[-->A fully responsive site template designed by <a href="https://html5up.net">HTML5 UP</a> and released<!--]--><br />
+                <!--[-->for free under the <a href="https://html5up.net/license">Creative Commons</a> license.<!--]-->'
+  logo = "fa-diamond"
+  copyright = "Untitled"
 
-  homeTitle ="Seeds Art Studio"
-#  subtitle = "Build a beautiful and simple website in minutes"
-  logo = "img/avatar-icon.png" # Expecting square dimensions
-  favicon = "img/favicon.ico"
-  dateFormat = "January 2, 2006"
-  commit = false
-  rss = true
-  comments = true
-  readingTime = true
-  wordCount = true
-  useHLJS = true
-  socialShare = true
-  delayDisqus = true
-  showRelatedPosts = true
-#  gcse = "012345678901234567890:abcdefghijk" # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
+[[params.social]]
+  medium = "twitter"
+  icon = "twitter"
+  link = "#"
 
-#[[Params.bigimg]]
-#  src = "img/triangle.jpg"
-#  desc = "Triangle"
-#[[Params.bigimg]]
-#  src = "img/sphere.jpg"
-#  desc = "Sphere"
-#  # position: see values of CSS background-position.
-#  position = "center top"
-#[[Params.bigimg]]
-#  src = "img/hexagon.jpg"
-#  desc = "Hexagon"
+[[params.social]]
+  medium = "facebook"
+  icon = "facebook"
+  link = "#"
 
-[Author]
-  name = "Richard Sang"
-  website = "yourwebsite.com"
-  email = "youremail@domain.com"
-  instagram = "username"
-  youtube = "user/username" # or channel/channelname
-  
-[[menu.main]]
-    name = "Home"
-    url = ""
-    weight = 1
+[[params.social]]
+  medium = "instagram"
+  icon = "instagram"
+  link = "#"
 
-[[menu.main]]
-    identifier = "Works"
-    name = "Works"
-    weight = 2
+[[params.social]]
+  medium = "github"
+  icon = "github"
+  link = "#"
 
-[[menu.main]]
-    parent = "Works"
-    name = "Teacher's work"
-    url = "page/works/teacher"
-    weight = 1
+[languages]
+[languages.en]
+languageName = "English"
+weight = 1
 
-[[menu.main]]
-    parent = "Works"
-    name = "Students' work"
-    url = "page/works/students"
-    weight = 2
+[languages.zh]
+languageName = "中文"
+weight = 2
 
-[[menu.main]]
-    name = "Art Classes"
-    url = "page/classes/"
-    weight = 3
-
-[[menu.main]]
-    name = "Animation workshop"
-    url = "page/workshops/"
-    weight = 4
-
-[[menu.main]]
-    name = "About us"
-    url = "page/about/"
-    weight = 5
-
-
+title = "种子创艺"
+description = '<!--[--> <h2>为创艺而生</h2> <!--]-->'
